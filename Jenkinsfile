@@ -51,7 +51,7 @@ pipeline{
                 sshPublisher(
                              publishers: [
                                  sshPublisherDesc(
-                                     configName: "server-j",
+                                     configName: "firstlab-server",
                                      transfers: [
                                         sshTransfer(sourceFiles: "${params.FILE_NAME}")
                                      ]
